@@ -1,0 +1,72 @@
+/* Estilos Generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333333; /* Gris oscuro para el texto */
+    background-color: #f4f4f4; /* Fondo claro */
+}
+
+h1, h2, h3 {
+    color: #0056b3; /* Azul oscuro para los encabezados */
+}
+
+a {
+    color: #0275d8; /* Azul más claro para los enlaces */
+    text-decoration: none;
+}
+
+/* Cabecera */
+header {
+    background-color: #343a40; /* Gris muy oscuro para la cabecera */
+    color: #ffffff; /* Texto blanco para contraste */
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+/* Secciones Principales */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Estilos para Productos */
+.producto {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #e9ecef; /* Fondo gris claro para los productos */
+}
+
+/* Pie de Página */
+footer {
+    background-color: #343a40; /* Mismo gris oscuro que la cabecera */
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+}
