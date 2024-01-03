@@ -26,16 +26,29 @@
     </header>
 
     <main>
-        <section id="blog">
-            <h2>Blog y Recursos</h2>
-            <p>Últimas noticias, guías y consejos sobre tecnología y gaming.</p>
-            <!-- Artículos y contenido del blog -->
+        <section id="blog" class="blog-container">
+            <h2>Nuestro Blog y Recursos</h2>
+            <div class="blog-grid">
+                <!-- Entrada de blog como tarjeta -->
+                <div class="blog-card">
+                    <img src="ruta/a/imagen-destacada.jpg" alt="Imagen destacada del artículo" class="blog-image">
+                    <div class="blog-content">
+                        <h3>Cómo Elegir tu PC Gamer Ideal</h3>
+                        <p>Una guía detallada para ayudarte a seleccionar la configuración perfecta basada en tus necesidades de juego.</p>
+                        <a href="guia-elegir-pc.html" class="blog-read-more no-intercept">Leer más</a>
+                    </div>
+                </div>
+                <!-- Repite la estructura de .blog-card para más entradas -->
+            </div>
         </section>
     </main>
 
     <footer>
         <p>&copy; 2023 TechnoPhoenix. Todos los derechos reservados.</p>
     </footer>
+
+    <!-- Aquí irían los scripts relacionados con la página, si los hubiera -->
+    <script src="scripts.js"></script>
 
 </body>
 </html>
