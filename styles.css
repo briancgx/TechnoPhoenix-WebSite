@@ -160,3 +160,14 @@ footer .social-media-links img:hover {
 .blog-read-more:hover {
     background-color: #E53935;
 }
+
+.logo-container {
+    text-align: center; /* Centra el logotipo */
+    padding: 10px; /* Espaciado alrededor del logotipo */
+}
+
+.logo-container img {
+    max-width: 100%; /* Hace el logotipo responsivo */
+    height: auto; /* Mantiene la relación de aspecto */
+    max-height: 170px; /* Ajusta esto según el tamaño deseado */
+}
