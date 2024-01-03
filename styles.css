@@ -3,23 +3,24 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    color: #333333; /* Gris oscuro para el texto */
-    background-color: #f4f4f4; /* Fondo claro */
+    color: #5A5A5A; /* Color de texto general (Gris oscuro) */
+    background-color: #FAE8E0; /* Color de fondo general (Rosa claro) */
+    padding-bottom: 60px; /* Espacio adicional para el pie de página */
 }
 
 h1, h2, h3 {
-    color: #0056b3; /* Azul oscuro para los encabezados */
+    color: #D35D6E; /* Color para los encabezados (Rojo) */
 }
 
 a {
-    color: #0275d8; /* Azul más claro para los enlaces */
+    color: #55828B; /* Color para los enlaces (Azul verdoso) */
     text-decoration: none;
 }
 
 /* Cabecera */
 header {
-    background-color: #343a40; /* Gris muy oscuro para la cabecera */
-    color: #ffffff; /* Texto blanco para contraste */
+    background-color: #2E4C63; /* Color de fondo para la cabecera (Azul oscuro) */
+    color: #FAE8E0; /* Texto blanco para contraste */
     text-align: center;
     padding: 1em 0;
 }
@@ -34,32 +35,52 @@ nav ul li {
     margin: 0 10px;
 }
 
+nav ul li a {
+    color: #FAE8E0; /* Color para los enlaces del menú (Rosa claro) */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #D35D6E; /* Color para los enlaces del menú al pasar el mouse (Rojo) */
+}
+
 /* Secciones Principales */
 section {
     margin: 20px;
     padding: 20px;
-    background-color: white;
+    background-color: #FAE8E0; /* Color de fondo para las secciones (Rosa claro) */
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 /* Estilos para Productos */
 .producto {
-    border: 1px solid #ddd;
+    border: 1px solid #D35D6E; /* Borde de color rojo para los productos */
     padding: 10px;
     margin-bottom: 20px;
-    background-color: #e9ecef; /* Fondo gris claro para los productos */
+    background-color: #EAD2AC; /* Fondo de color naranja claro para los productos */
+    text-align: center; /* Centra el contenido del producto */
+}
+
+.producto img {
+    max-width: 100%; /* Hace que la imagen sea responsive */
+    height: auto; /* Mantiene la proporción de la imagen */
+    max-height: 200px; /* Altura máxima de la imagen */
+    margin-top: 10px; /* Espacio por encima de la imagen */
+    border-radius: 8px; /* Bordes redondeados para la imagen */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* Sombra ligera para dar profundidad */
 }
 
 /* Pie de Página */
 footer {
-    background-color: #343a40; /* Mismo gris oscuro que la cabecera */
-    color: #fff;
+    background-color: #2E4C63; /* Color de fondo para el pie de página (Azul oscuro) */
+    color: #FAE8E0; /* Color del texto para el pie de página (Rosa claro) */
     text-align: center;
     padding: 1em 0;
-    position: relative;
+    position: fixed; /* Fijo en la parte inferior de la ventana */
     bottom: 0;
     width: 100%;
+    z-index: 100; /* Asegura que el pie de página esté sobre otros elementos */
 }
 
 /* Responsive Design */
